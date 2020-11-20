@@ -1,2 +1,2 @@
 # Batch-Files-for-Changing-IP-Address
-Easy shortcut for switching back and forth between a static IP address and DHCP
+Easy shortcut for switching your computer back and forth between a static IP address and DHCP
