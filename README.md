@@ -10,7 +10,7 @@ In command prompt, type `netsh interface ipv4 show config`.  You will see the va
 
 <img src="Images/cmd_ipv4_show_config.png" width="50%">
 
-### Step 3: Edit `Change IP Address to DHCP.bat`.
+### Step 3: Edit "Change IP Address to DHCP.bat".
 Open this file in a simple text editor such as Notepad.  Here is what you will see:
 ```
 @echo off
@@ -22,7 +22,7 @@ timeout 4
 ```
 Replace `Local Area Connection` with the name of your target ethernet connection found in step 1.  Keep the quotation marks.  Save the file.
 
-### Step 4: Edit `Change IP Address to Static.bat`.
+### Step 4: Edit "Change IP Address to Static.bat".
 Open this file in a text editor.  Here is what you will see:
 ```
 @echo off
