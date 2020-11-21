@@ -6,8 +6,10 @@ When it becomes tiresome to change your computer's IPv4 address by navigating th
 ### Step 1: Save the two files "Change IP Address to DHCP.bat" and "Change IP Address to Static.bat" on your computer.
 
 ### Step 2: Determine Which Network Connection You Want to Change.
-In command prompt, type `netsh interface ipv4 show config`.  You will see the various ethernet connections available on your computer.  Select which one you will need to change the IP address of.  In this example it is `"Local Area Connection"`.   
-![](Images/cmd_ipv_show_config.jpg =250x)
+In command prompt, type `netsh interface ipv4 show config`.  You will see the various ethernet connections available on your computer.  Select which one you will need to change the IP address of.  In this example it is `"Local Area Connection"`. 
+
+![](Images/cmd_ipv4_show_config.png =250x)
+<img src="Images/cmd_ipv4_show_config.png" width="40%">
 
 ### Step 3: Edit `Change IP Address to DHCP.bat`.
 Open this file in a simple text editor such as Notepad.  Here is what you will see:
@@ -35,7 +37,9 @@ Similarly to Step 3, replace `Local Area Connection` with the name of your targe
 
 ### Step 5: Create Shortcuts with Admin Privileges
 You will need to run these .bat files as an Administrator.  Instead of having to right click on them and "Run as administrator", you can create shortcuts with admin privileges and just open those shortcuts.  To do so, first right click on each of the files in Windows File Explorer and click "Create shortcut".  Now right click on each of the shortcuts and click "Properties".  In the "Shortcut" tab, click the "Advanced.." button.  Check the box that says "Run as administrator".  Now put the shortcuts wherever you want them for quick access.
-![](Images/run_as_administrator.jpg =250x)
+
+![](Images/run_as_administrator.png =250x)
+<img src="Images/run_as_administrator.png" width="40%">
 
 ### Step 6: Test it out.
 As with anything, make sure it works as expected.
