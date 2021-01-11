@@ -6,9 +6,9 @@ When it becomes tiresome to change your computer's IPv4 address by navigating th
 ### Step 1: Save the two files "Change IP Address to DHCP.bat" and "Change IP Address to Static.bat" on your computer.
 
 ### Step 2: Determine Which Network Connection You Want to Change.
-In command prompt, type `netsh interface ipv4 show config`.  You will see the various ethernet connections available on your computer.  Select which one you will need to change the IP address of.  In this example it is `"Local Area Connection"`. 
+In command prompt, type `netsh interface ipv4 show config`.  You will see the various ethernet connections available on your computer.  Make note of which one you want to change the IP address of.  In this example it is `"Local Area Connection"`. 
 
-<img src="Images/cmd_ipv4_show_config.png" width="50%">
+<img src="Images/cmd_ipv4_show_config.png" width="75%">
 
 ### Step 3: Edit "Change IP Address to DHCP.bat".
 Open this file in a simple text editor such as Notepad.  Here is what you will see:
