@@ -42,4 +42,6 @@ You will need to run these .bat files as an Administrator.  Instead of having to
 ### Step 6: Test it out.
 As with anything, make sure it works as expected.
 
+<img src="Images/SuccessfulSetStatic.PNG" width="50%">
+
 
